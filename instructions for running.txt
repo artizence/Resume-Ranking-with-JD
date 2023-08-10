@@ -1,0 +1,46 @@
+Open the directory/Folder in which the code is present
+Now Follow the steps which i am going to do
+
+Just do a mouse click 
+then type cmd
+press enter
+
+terminal is open now
+then type 
+
+
+1) pip install -r requirements.txt ( run this command first on terminal)
+2)python application.py ( second command)
+
+Server has started
+3) Open the postman
+4) make post request to   http://127.0.0.1:5000/api/matcher/ with postman i am going to do 
+5) the key is "file"
+6) the skill are python list so the format should be   [ "value1", "value2" , "value3"] 
+
+outputis json format
+{
+    "data": {
+        "rank": [
+            1,
+            2,
+            3
+        ],
+        "resume": [
+            "Resume\\1621971804qymu6-ibrahim-devops-engineer.docx",
+            "Resume\\1679583373jw1rj-dixithreddy-resume-1.docx",
+            "Resume\\102.pdf"
+        ],
+        "score": [
+            50.0,
+            50.0,
+            0.0
+        ]
+    },
+    "message": "parsing successfully"
+}
+
+
+We have not activated the virtual  enviroment
+
+you will not need the virtual enviroment to run the application.
